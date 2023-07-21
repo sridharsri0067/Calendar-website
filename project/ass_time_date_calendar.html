@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+        }
+        div{
+            border-radius: 20px;
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            margin: 80px 40px;
+            padding-bottom: 25px;
+            background-color: lightgreen;
+            box-shadow: -5px -5px 15px .7px tomato;
+        }
+        h2{
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        h1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div>
+            <h2>Hour</h2>
+            <h1 id="hour"></h1>
+        </div>
+        <div>
+            <h2>Minutes</h2>
+            <h1 id="mint"></h1>
+        </div>
+        <div>
+            <h2>Seconds</h2>
+            <h1 id="secd"></h1>
+        </div>
+        <div>
+            <h2>AM / PM</h2>
+            <h1 id="ampm"></h1>
+        </div>
+    </main>
+
+    <section>
+        <div>
+            <h2>Date</h2>
+            <h1 id="date"></h1>
+        </div>
+        <div>
+            <h2>Day</h2>
+            <h1 id="day"></h1>
+        </div>
+        <div>
+            <h2>Month</h2>
+            <h1 id="month"></h1>
+        </div>
+        <div>
+            <h2>Year</h2>
+            <h1 id="year"></h1>
+        </div>
+    </section>
+
+
+    <script src="ass_time_date_calendar.js"></script>
+    
+</body>
+</html>
